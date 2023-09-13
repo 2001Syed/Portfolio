@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Skills.css";
-import UIDesign from "../../assets/ui-design.png"
+import ReactDesign from "../../assets/React.png"
 import WebDesign from '../../assets/website-design.png'
-import AppDesign from "../../assets/app-design.png"
+import NodeDesign from "../../assets/node-js.png"
 
 const Skills = () => {
   return (
@@ -11,28 +11,28 @@ const Skills = () => {
             What I do
         </span>
         <span className="skillDesc">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis rerum adipisci animi illum delectus sint culpa pariatur, odit, iusto aperiam autem libero, praesentium reprehenderit dolores! Fugiat esse minus, autem velit dolorem, debitis nostrum doloribus saepe reprehenderit tenetur earum, aliquam temporibus.
+            Front-end developer with proven ability to design and develop JavaScript-based applications for web or mobile environments. Strong knowledge of <b><i>React JS, JSON, Node.js, Typescript, HTML, CSS, and Bootstrap</i></b>.
         </span>
         <div className="skillBars">
             <div className="skillBar">
-                <img src={UIDesign} alt="UIDesign" className='skillBarImg'/>
+                <img src={ReactDesign} alt="UIDesign" className='skillBarImg'/>
                 <div className="skillBarText">
-                    <h2>UI/UX Design</h2>
-                    <p>This is a demo text, you can write your own content here.</p>
+                    <h2>React Developer</h2>
+                    <p>JavaScript , ES6 , TypeScript , React-Routing</p>
                 </div>
             </div>
             <div className="skillBar">
                 <img src={WebDesign} alt="WebDesign" className='skillBarImg'/>
                 <div className="skillBarText">
                     <h2>Website Design</h2>
-                    <p>This is a demo text, you can write your own content here.</p>
+                    <p>HTML, CSS, TailwindCSS, Bootstrap</p>
                 </div>
             </div>
             <div className="skillBar">
-                <img src={AppDesign} alt="AppDesign" className='skillBarImg'/>
+                <img src={NodeDesign} alt="AppDesign" className='skillBarImg'/>
                 <div className="skillBarText">
-                    <h2>App Design</h2>
-                    <p>This is a demo text, you can write your own content here.</p>
+                    <h2>Node.js</h2>
+                    <p></p>
                 </div>
             </div>
         </div>

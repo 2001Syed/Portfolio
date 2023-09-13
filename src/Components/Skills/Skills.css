@@ -24,6 +24,10 @@
     padding: 0.2rem;
 }
 
+.skillDesc>b{
+    color: yellow;
+}
+
 .skillBars{
     margin: 1.5rem;
     width: 100vw;

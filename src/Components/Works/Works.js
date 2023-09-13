@@ -12,7 +12,7 @@ const Works = () => {
     <section id="works">
         <h2 className="workstitle">My Portfolio</h2>
         <span className="worksDesc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores explicabo reiciendis quae sapiente eveniet vitae iste, laborum quam ab illum!
+          <b><i>Ambitious</i></b> and <b><i>self-esteemed</i></b> fresher who is capable of applying skills for the improvement of the company. Seeking an Entry level opportunity with an esteemed organization where I can utilize my skills and enhance learning in the field of work. 
         </span>
         <div className="worksImgs">
             <img src={Portfolio1} alt="" className="worksImg" />

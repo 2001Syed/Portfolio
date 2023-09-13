@@ -20,6 +20,12 @@
     font-weight: 300;
     font-size: 1rem;
     max-width: 45rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.worksDesc>b{
+    color: yellow;
 }
 
 .worksImgs{
