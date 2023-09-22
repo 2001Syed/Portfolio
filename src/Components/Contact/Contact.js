@@ -1,9 +1,8 @@
 import React, { useRef } from 'react'
 import "./Contact.css"
 import GitHub from "../../assets/github-sign.png";
-import FacebookIcon from "../../assets/facebook-icon.png";
 import TwitterIcon from "../../assets/twitter.png";
-import YoutubeIcon from "../../assets/youtube.png";
+import LinkedinIcon from "../../assets/linkedin.png";
 import InstagramIcon from "../../assets/instagram.png";
 import emailjs from '@emailjs/browser';
 
@@ -48,10 +47,18 @@ const Contact = () => {
                 <textarea name="message" rows="5" className="msg" placeholder='Your Message'></textarea>
                 <button type='submit' className="submitBtn" value='Send'>Submit</button>
                 <div className="links">
-                    <img src={FacebookIcon} alt="facebook" className="link" />
-                    <img src={TwitterIcon} alt="twitter" className="link" />
+                    {/* <a href="">
+                        <img src={FacebookIcon} alt="facebook" className="link" />
+                    </a> */}
+                    <a href="https://twitter.com/Syed8712" target='blank'>
+                        <img src={TwitterIcon} alt="twitter" className="link" />
+                    </a>
+                    <a href="https://instagram.com/sy__subhan._?utm_source=qr&igshid=OGU0MmVlOWVjOQ==" target='blank'>
                     <img src={InstagramIcon} alt="instagram" className="link" />
-                    <img src={YoutubeIcon} alt="youtube" className="link" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/syed-subaan-shareef-81862b27a" target='blank'>
+                        <img src={LinkedinIcon} alt="linkedin" className="link linkedin" />
+                    </a>
                 </div>
             </form>
         </div>
