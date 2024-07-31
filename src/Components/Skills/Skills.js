@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Skills.css";
-import ReactDesign from "../../assets/React.png"
-import WebDesign from '../../assets/website-design.png'
-import JavaDesign from "../../assets/java.svg"
+import DBDesign from "../../assets/database.png"
+import PowerBiDesign from '../../assets/business-intelligence.png'
+import PythonDesign from "../../assets/python.png"
 
 const Skills = () => {
   return (
@@ -11,28 +11,28 @@ const Skills = () => {
             What I do
         </span>
         <span className="skillDesc">
-        Versatile full-stack developer adept in <b>JavaScript(ES6+)</b>, <b>Java with strong OOP concepts</b>, and experienced in <b>ReactJS, ExpressJS, Spring Boot, MongoDB, REST APIs, and Bootstrap for building responsive websites</b>.
+        I transform complex data into actionable insights and create detailed reports to support data-driven decisions. I handle <b>ETL processes</b>, <b>clean and preprocess data</b>, <b>develop models</b>, and generate visualizations. I also <b>optimize data workflows</b>, <b>ensure data quality</b>, and collaborate with teams to understand their data needs.
         </span>
         <div className="skillBars">
             <div className="skillBar">
-                <img src={ReactDesign} alt="UIDesign" className='skillBarImg'/>
+                <img src={DBDesign} alt="UIDesign" className='skillBarImg'/>
                 <div className="skillBarText">
-                    <h2>React Aplication Development</h2>
-                    <p>Skilled in React.js with hands-on expertise in libraries like Redux, and features such as virtual DOM, JSX, and component-based architecture, along with proficiency in implementing REST APIs</p>
+                    <h2>SQL</h2>
+                    <p>Proficient in writing and optimizing SQL queries to extract, manipulate, and analyze data efficiently.</p>
                 </div>
             </div>
             <div className="skillBar">
-                <img src={JavaDesign} alt="AppDesign" className='skillBarImg'/>
+                <img src={PythonDesign} alt="AppDesign" className='skillBarImg'/>
                 <div className="skillBarText">
-                    <h2>Java</h2>
-                    <p>Proficient in Java with hands-on experience in OOP concepts</p>
+                    <h2>Python Visualization</h2>
+                    <p>Skilled in Python visualization using libraries such as Matplotlib, Seaborn, and Plotly to create insightful and interactive charts and graphs.</p>
                 </div>
             </div>
             <div className="skillBar">
-                <img src={WebDesign} alt="WebDesign" className='skillBarImg'/>
+                <img src={PowerBiDesign} alt="WebDesign" className='skillBarImg'/>
                 <div className="skillBarText">
-                    <h2>Website Design</h2>
-                    <p>Capable of designing responsive web interfaces using modern design principles and frameworks.</p>
+                    <h2>Power BI Reporting</h2>
+                    <p>Experienced in Power BI reporting with expertise in integrating data from Excel, Power Query, and MS Access to create comprehensive and interactive dashboards.</p>
                 </div>
             </div>
         </div>

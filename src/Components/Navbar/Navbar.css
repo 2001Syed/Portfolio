@@ -15,8 +15,24 @@
 
 .logo{
     object-fit: cover;
-    height: 3rem;
-    width: 10rem;
+    height: auto;
+    width: 4rem;
+}
+
+.role{
+    margin-left: 0;
+    position: relative;
+    left: -8rem;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.5px solid white;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.role:hover{
+    background-color: yellow;
+    color: black;
 }
 
 .desktopMenuListItem{

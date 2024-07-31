@@ -11,7 +11,8 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className="logo" />
+      <img src={logo} alt="logo" className="logo imgrole" />
+      <p className="role imgrole">DATA ANALYST</p>
       <div className="desktopMenu">
         <Link
           activeClass="active"
